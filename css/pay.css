@@ -1,0 +1,159 @@
+#hint{
+	border-top: 1px solid #fd8e69;
+	background: #fff8f6;
+	width: 1200px;
+	margin: 20px auto 40px;
+	padding: 65px 0;
+	height: 120px;
+}
+#hint div{
+	width: 100%;
+	text-indent: 420px;
+	line-height: 40px;
+	height: 40px;
+	color: #666;
+}
+#hint div i{
+	color: #F01511;
+}
+#hint div:nth-of-type(1){
+	font-size: 18px;
+	color: #e56f4a;
+	position: relative;
+}
+#hint div:nth-of-type(1) em{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: url(../img/xbt.png)no-repeat -160px -350px;
+	left: 290px;
+	top: 10px;
+}
+#hint div:nth-of-type(2) a{
+	margin-left: 90px;
+	color: #FF6634;
+}
+
+#pay{
+	width: 1200px;
+	margin: 0 auto 30px;
+	overflow: hidden;
+}
+#pay h2{
+	width: 1197px;
+	margin: 18px 0;
+	height: 30px;
+	border-left:3px solid #F01511;
+	color: #F01511;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 30px;
+}
+#pay .card{
+	border-top: 1px solid #FF6634;
+	border-bottom: 1px solid #FF6634;
+	
+}
+#pay .card li{
+	height: 30px;
+	padding: 18px 0;
+}
+#pay .card li>div{
+	float: left;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#pay .card li>div i{
+	color: #F01511;
+}
+#pay .card li>div:nth-of-type(1){
+	width: 300px;
+	position: relative;
+}
+#pay .card li>div:nth-of-type(1) em{
+	position: absolute;
+	left: 28px;
+	top: 8px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #ccc;
+}
+#pay .card li>div:nth-of-type(1) span{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 70px;
+}
+#pay .card li>div:nth-of-type(1):before{
+	position: absolute;
+	left: 25px;
+	top: 5px;
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #ccc;
+	content: '';
+}
+#pay .card li>div:nth-of-type(2){
+	width: 190px;
+}
+#pay .card li>div:nth-of-type(3){
+	width: 300px;
+}
+#pay .card li>div:nth-of-type(4){
+	width:160px;
+	color: #F01511;
+}
+#pay .card li>div:nth-of-type(4){
+	width:250px;
+}
+#pay>button{
+	width: 160px;
+	height: 40px;
+	background: #FF6634;
+	color: #fff;
+	margin: 30px 0 30px 25px;
+	cursor: pointer;
+}
+#pay .pwd{
+	
+}
+#pay .pwd p{
+	color: #F01511;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 25px;
+}
+#pay .pwd ul{
+	width: 396px;
+	height: 38px;
+	margin-left: 25px;
+	float: left;
+	border: 1px solid #CCCCCC;
+	border-right: none;
+}
+#pay .pwd ul>li{
+	float: left;
+	width: 66px;
+	height: 38px;
+}
+#pay .pwd ul>li input{
+	width: 65px;
+	height: 36px;
+	border-right: 1px solid #ccc;
+	background: transparent;
+	padding: 0;
+	margin: 1px 0;
+	text-align: center;
+}
+#pay .pwd>a{
+	float: left;
+	width: 125px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}

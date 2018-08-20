@@ -1,0 +1,177 @@
+#logistics{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#logistics .logistics{
+	width: 960px;
+	float: right;
+}
+#logistics .logistics>div{
+	background: #F5F5F5;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+}
+#logistics .logistics>div:nth-of-type(1){
+	height: 48px;
+	line-height: 48px;
+}
+#logistics .logistics>div:nth-of-type(1) span{
+	font-size: 16px;
+	color: #737373;
+	padding-left: 40px;
+}
+#logistics .logistics>div:nth-of-type(1) i{
+	float: right;
+	padding-right: 60px;
+}
+#logistics .logistics>div:nth-of-type(2){
+	padding: 15px 0;
+}
+#logistics .logistics>div:nth-of-type(2) p{
+	position: relative;
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	padding-left: 100px;
+	color: #666;
+}
+#logistics .logistics>div:nth-of-type(2) p i{
+	
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top:25px;
+	left: 45px;
+	border-radius: 50%;
+	background: #999;
+	z-index: 1;
+}
+#logistics .logistics .active{
+	color: #FF6634 !important;
+}
+#logistics .logistics .active1{
+	background: #FF6634 !important;
+}
+#logistics .logistics>div:nth-of-type(2) p em{
+	position: absolute;
+	width:1px;
+	height: 55px;
+	background: #999;
+	top: 30px;
+	left: 49px;
+}
+#logistics .logistics>div:nth-of-type(2) p:before{
+	display: block;
+	content: '';
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #999;
+	background: #fff;
+	border-radius: 50%;
+	top: 23px;
+	left: 43px;
+	z-index: 0;
+}
+#logistics .logistics>div:nth-of-type(3){
+	height: 48px;
+	background: #F5F5F5;
+	line-height: 48px;
+	color: #666;
+	padding-left: 40px;
+}
+#logistics .logistics>div:nth-of-type(4){
+	overflow: hidden;
+	padding: 15px 0 30px;
+	margin-bottom: 30px;
+	
+}
+#logistics .logistics>div:nth-of-type(4) ul{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+#logistics .logistics>div:nth-of-type(4) li{
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 140px;
+	font-size: 16px;
+	color: #666;
+}
+#logistics .left{
+	width: 519px;
+	height: 140px;
+	float:left; 
+	border-right: 1px solid #ccc;
+}
+#logistics .left div{
+	width: 140px;
+	height: 140px;
+	float: left;
+	margin-left: 20px;
+}
+#logistics .left a{
+	float: left;
+	width: 320px;
+	margin:10px 0 0 20px ;
+	line-height: 20px;
+}
+#logistics .left span{
+	float: left;
+	width: 320px;
+	margin: 20px 0 0 23px;
+	color: #999;
+}
+#logistics .left p{
+	float: left;
+	margin: 20px 0 0 23px;
+}
+#logistics .left i{
+	color: #F01511;
+}
+#logistics .middle{
+	width: 279px;
+	height: 120px;
+	text-indent: 50px;
+	font-size: 16px;
+	border-right: 1px solid #ccc;
+	float: left;
+	color: #666;
+	padding-top: 20px;
+	line-height: 30px;
+}
+
+#logistics .middle i{
+	color: #F01511;
+}
+#logistics .middle div>i{
+	font-size: 18px;
+}
+#logistics .right{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	width: 155px;
+	float: left;
+}
+#logistics .right div{
+	margin:50px 0  15px 0;
+	width: 100%; 
+	float: left;
+	position: relative;
+}
+#logistics .right div em{
+	position: absolute;
+	top: -32px;
+	left: 70px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/xbt.png)no-repeat -280px -120px;
+}
+#logistics .right span{
+	float: left;
+	width: 100%;
+}

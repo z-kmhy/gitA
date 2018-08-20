@@ -1,0 +1,96 @@
+/*page start-------------------------------------------------------*/
+#page{
+	width: 1000px;
+	margin:40px auto;
+	padding-left: 200px;
+	height: 40px;
+}
+#page ul{
+	width: 600px;
+	margin: 0 auto;
+	height: 40px;
+	text-align: center;
+	
+}
+#page .border-l{
+	border-left: 1px solid #ccc;
+}
+#page li{
+	position: relative;
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-left: none;
+}
+#page .padding10{
+	padding: 0;
+	padding: 12px 10px;
+}
+#page li:hover, #page .active{
+	background: #FF6634;
+	border-color: #FF6634;
+	cursor: pointer;
+}
+#page .cursorP{							/*鼠标手型*/
+	cursor: pointer !important;
+}
+#page .cursorA{							/*鼠标默认形状*/
+	cursor:default !important;
+}
+#page .colorbbb{
+	color: #bbb !important;
+	border-color: #bbb !important;
+}
+#page .noclick{							/*在第一页和最后一页时无法点击的样式  js使用*/
+	color: #fff !important;
+	border-color: #ccc !important;
+}
+#page li:hover a, #page .active a{
+	color: #fff;
+}
+#page li span{
+	display: inline-block;
+	width: 1px;
+	height: 1px;
+	background: #ccc;
+} 
+#page .border-l:hover{
+	color: #FF6634;
+	background: #fff;
+}
+/*#page .border-l:hover .page-l{
+	border-right-color: #FF6634;
+}
+#page .border-l:hover .page-r{
+	border-left-color: #FF6634;
+}
+#page .border-l:hover .page-l .bgcolor-l{
+	border-right-color: #bbb !important;
+}
+#page .border-l:hover .page-r .bgcolor-r{
+	border-left-color: #bbb !important;
+}*/
+#page .page-l{
+	position: relative;
+	left: -10px;
+	margin-top: -5px;
+	border: 5px solid #ccc;
+	border-left:5px solid #fff ;
+	border-bottom:5px solid #fff;
+	border-top:5px solid #fff;
+	margin-left: -3px;
+}
+#page .page-r{
+	position: relative;
+	right: -10px;
+	margin-top: -5px;
+	border: 5px solid #ccc;
+	border-right:5px solid #fff ;
+	border-bottom:5px solid #fff;
+	border-top:5px solid #fff;
+	margin-left: -3px;
+}
+/*page end*/

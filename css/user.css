@@ -1,0 +1,256 @@
+
+/*my-content start*/
+#my-content{
+	width: 1200px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+.content-right{
+	float: right;
+	width: 960px;
+	margin: 0 20px 30px 0;
+	
+}
+.content-right .my{
+	background: #FAFAFA;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.content-right .my-t{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.content-right .my-t div{
+	float:left;
+	margin:15px  150px 0 0;
+}
+.content-right .my-t div h3{
+	font-size: 18px;
+	line-height: 60px;
+	/*margin-bottom: 20px;*/
+}
+.content-right .my-t div p{
+	line-height: 30px;
+}
+.content-right .my-t div a{
+	color: #F01511;
+	padding-right: 10px ;
+}
+.content-right .my-t div span{
+	color: #F01511;
+	padding-right: 10px ;
+}
+#my-content .color666{
+	color: #666;
+}
+.content-right .my-t .symbol{
+	margin: 15px 50px 0 25px;
+	display: inline-block;
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+.content-right .my-t .symbol img{
+	border-radius: 50%;
+}
+
+.content-right .my-b li{
+	float: left;
+	width: 235px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.content-right .my-b li a{
+	color: #a8a8a8;
+}
+.content-right .my-b li span{
+	color: #F01511;
+}
+
+.content-right .indent{
+	width: 958px;
+	border: 1px solid #ccc;
+	background: #FAFAFA;
+	overflow: hidden;
+}
+.indent h4{
+	color: #F01511;
+	line-height: 70px;
+	font-size: 16px;
+	text-indent: 2em;
+}
+.i-cont{
+	overflow: hidden;
+}
+.i-cont .time{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	line-height: 30px;
+}
+.i-cont .time span{
+	color: #F01511;
+}
+.time div{
+	position: absolute;
+	right: -15px;
+	top: 0;
+	width: 28px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+	border-radius: 50%;
+}
+.i-cont .time .min{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	background: #CCCCCC;
+}
+.i-cont .order-ils{
+	position: relative;
+	left: -2px;
+	float:left;
+	margin-top: 30px;
+	
+	border-left: 4px solid #ccc;
+	padding: 2px 35px 40px 35px;
+}
+.o-i-cantent{
+	width: 718px;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: hidden;
+}
+.oi-c-left{
+	float: left;
+	width: 520px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-left:30px ;
+}
+.oi-c-left .oi-c-left-r .float-r{
+	float: right;
+	padding-right: 20px;
+}
+.oi-c-left .oi-c-left-l{
+	float:left;
+	cursor: pointer;
+	width: 150px;
+	height: 150px;
+	border: 1px solid transparent;
+}
+.oi-c-left .oi-c-left-r{
+	overflow: hidden;
+	
+}
+.oi-c-left h5{
+	float: left;
+	width: 370px;
+	padding: 20px 0;
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.paddingtop21{
+	padding-top: 21px;
+}
+.oi-c-left h5 em{
+	font-size: 14px;
+	color: #666666;
+	padding-left: 30px;
+}
+.boundary{
+	border: 0.5px dotted #ccc;
+	width: 520px;
+	float: left;
+	margin: 10px 0 10px 30px;
+}
+.fill{
+	float: left;
+	width: 164.5px;
+	height: 21px;
+	background: #F5F5F5;
+	margin-left: 2px;
+}
+.oi-c-left a{
+	/*display: block;*/
+	float: left;
+	margin-bottom: 20px;
+	padding:0 20px;
+	
+}
+.oi-c-left span{
+	float: left;
+	color: #F01511;
+	padding-left: 20px;
+}
+.oi-c-left i{
+	float: left;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+.oi-c-left p{
+	float: left;
+	cursor: pointer;
+	width: 80px;
+	height: 28px;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 28px;
+	margin: 10px 0 0 30px;
+}
+.oi-c-right{
+	float: right;
+	overflow: hidden;
+	background: #F5F5F5;
+	text-align: center;
+	width: 165px;
+	
+}
+.oi-c-right>div{
+	text-align: center;
+	padding:20px 0 10px 0;
+}
+.oi-c-right span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.oi-c-right button{
+	display: block;
+	position: relative;
+	left: 50%;
+	margin-left: -40px;
+	border: none;
+	outline: none;
+	width: 80px;
+	height: 30px;
+	margin-bottom: 10px;
+	background: #F01511;
+	cursor: pointer;
+}
+.oi-c-right a{
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 20px;
+}
+.r-check{
+	color: #666;
+	
+}
+.r-cel{
+	color: #999;
+}
+.oi-c-right p{
+	font-size: 12px;
+	padding:10px 0 30px 0;
+}
+/*my-content end*/
+
+

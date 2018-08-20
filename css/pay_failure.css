@@ -1,0 +1,60 @@
+#pay_failure{
+	width: 1200px;
+	margin: 35px auto 70px;
+	padding: 22px 0 12px ;
+	background: #fff8f6;
+	height: 250px;
+	border-top: 1px solid #FF6634;
+}
+#pay_failure>div:nth-of-type(1){
+	width: 410px;
+	border-right: 1px solid #FF6634;
+	float: left;
+	height: 250px;
+	padding-left: 420px;
+}
+#pay_failure i{
+	color: #F01511;
+}
+#pay_failure>div:nth-of-type(1) h2{
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+	font-size: 23px;
+}
+#pay_failure>div:nth-of-type(1) h2:before{
+	content: '';
+	position: absolute;
+	top: 30px;
+	left: -180px;
+	width: 150px;
+	height: 150px;
+	background: url(../img/xbt.png)no-repeat 0 -350px;
+}
+#pay_failure>div:nth-of-type(1) p{
+	height: 37px;
+	line-height: 37px;
+}
+#pay_failure>div:nth-of-type(1) p:nth-of-type(3){
+	color: #666;
+}
+#pay_failure>div:nth-of-type(1) button{
+	width: 137px;
+	height: 40px;
+	background: #FF6634;
+	color: #fff;
+	cursor: pointer;
+}
+#pay_failure>div:nth-of-type(2){
+	width: 259px;
+	float: left;
+	height: 250px;
+	padding:45px 0 0  110px;
+} 
+#pay_failure>div:nth-of-type(2) p{
+	height: 45px;
+	line-height: 45px;
+}
+#pay_failure>div:nth-of-type(2) span{
+	color: #a9a7a7;
+}

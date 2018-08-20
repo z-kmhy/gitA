@@ -1,0 +1,57 @@
+/*place----               当前所在位置*/
+#place{
+	width: 1198px;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	background: #FAFAFA;
+}
+#place ul{
+	float: left;
+	padding-left: 25px;
+	
+}
+#place li{
+	position: relative;
+	float: left;
+	line-height: 40px;
+	font-size: 14px;
+}
+#place li a{
+	color: #666;
+}
+#place .active,#place li a:hover{
+	color: #FF6634;
+}
+#place li span{
+	margin: 0 10px;
+	color: #666;
+}
+#place input{
+	width: 130px;
+	height: 20px;
+	border: 1px solid #ccc;
+	padding: 0 20px 0 10px;
+	margin-left: 25px;
+}
+#place li em{
+	position: absolute;
+	right: 2px;
+	top:11px;
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	background: url(../img/comments.png) no-repeat 0 3px;
+	background-size:15px 15px ;
+	cursor: pointer;
+}
+#place p{
+	float: right;
+	line-height: 40px;
+	color: #999;
+	padding-right: 10px;
+}
+#place p span{
+	color: #333;
+}
+/*place end*/ 

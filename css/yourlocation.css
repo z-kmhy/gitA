@@ -1,0 +1,13 @@
+#yourlocation{
+	width: 1200px;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #999;
+	margin: 20px auto;
+}
+#yourlocation li{
+	float: left;
+}
+#yourlocation li span{
+	color: #FF6634;
+}

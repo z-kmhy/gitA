@@ -1,0 +1,163 @@
+#logo .logo-r{
+	width: 600px;
+	height: 100%;
+	float: right;
+}
+#logo .logo-r li{
+	width: 200px;
+	float: left;
+	text-align: center;
+	line-height: 125px;
+}
+#logo .logo-r li span{
+	width: 32px;
+	height: 32px;
+	float: left;
+	position: relative;
+	top: 46px;
+	left: 20px;
+}
+#logo .logo-r li:nth-of-type(1) span{
+	background: url(../img/xbt.png)no-repeat -400px -80px;
+}
+#logo .logo-r li:nth-of-type(2) span{
+	background: url(../img/xbt.png)no-repeat -440px -80px;
+}
+#logo .logo-r li:nth-of-type(3) span{
+	background: url(../img/xbt.png)no-repeat 0 -120px;
+}
+
+
+
+#register{
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	height: 600px;
+	background: url(../img/banner-04.png)no-repeat;
+}
+#register .register{
+	position: absolute;
+	left: 55%;
+	top: 85px;
+	width: 385px;
+	height: 435px;
+	background: #d5e4fb;
+	padding: 10px 40px 0;
+	border: none;
+	box-sizing: border-box;
+}
+#register .register h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+#register .register h2 a{
+	color: #F01511;
+	font-size: 14px;
+	float: right;
+	padding-right: 8px;
+}
+#register .register h2 em{
+	color: #333;
+}
+#register .register input{
+	width: 300px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+#register .register .code{
+	float: left;
+	width: 300px;
+	height: 40px;
+}
+#register .register .code input{
+	width: 160px;
+	margin-right: 5px;
+	float: left;
+}
+#register .register .code a{
+	float: left;
+	margin-left:20px;
+	width: 100px;
+	height: 40px;
+}
+#register .register .code a:nth-of-type(2){
+	width: 50px;
+	line-height: 40px;
+	margin-left:5px ;
+}
+#register .register .deal{
+	float: left;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+#register .register .deal a{
+	font-size: 12px;
+	float: left;
+	color: #666;
+	padding-left: 40px;
+	height: 40px;
+}
+#register .register .deal span{
+	position: absolute;
+	cursor: pointer;
+	top: 13px;
+	left: 12px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}
+#register .register .deal .active{
+	background: url(../img/check.png);
+	background-size: 100% 100%;
+}
+#register .register>button{
+	width: 300px;
+	height: 40px;
+	background: #F01511;
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+}
+#register .register>ul{
+	float: left;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+#register .register>ul>li{
+	float: left;
+	width: 34px;
+	height: 34px;
+	margin:0 10px;
+}
+#register .register>ul>li:nth-of-type(1){
+	background: url(../img/xbt.png)no-repeat -40px -120px;
+}
+#register .register>ul>li:nth-of-type(2){
+	background: url(../img/xbt.png)no-repeat -80px -120px;
+}
+#register .register>ul>li:nth-of-type(3){
+	background: url(../img/xbt.png)no-repeat -120px -120px;
+}
+#register .register>ul>li:nth-of-type(4){
+	width: 35px;
+	height: 35px;
+	background: url(../img/xbt.png)no-repeat -160px -120px;
+}
+#register .register>ul>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}

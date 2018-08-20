@@ -1,0 +1,67 @@
+#pay_success{
+	width: 1200px;
+	margin: 35px auto 70px;
+	padding: 22px 0 12px ;
+	background: #fff8f6;
+	height: 250px;
+	border-top: 1px solid #FF6634;
+}
+#pay_success>div:nth-of-type(1){
+	width: 410px;
+	border-right: 1px solid #FF6634;
+	float: left;
+	height: 250px;
+	padding-left: 420px;
+}
+#pay_success i{
+	color: #F01511;
+}
+#pay_success>div:nth-of-type(1) h2{
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+	font-size: 23px;
+}
+#pay_success>div:nth-of-type(1) h2:before{
+	content: '';
+	position: absolute;
+	top: 30px;
+	left: -180px;
+	width: 150px;
+	height: 150px;
+	background: url(../img/xbt.png)no-repeat -280px -350px;
+}
+#pay_success>div:nth-of-type(1) span{
+	display: inline-block;
+	height: 37px;
+	line-height: 37px;
+	margin-top: 60px;
+	color: #666;
+}
+#pay_success>div:nth-of-type(1) p{
+	height: 35px;
+	line-height: 35px;
+}
+#pay_success>div:nth-of-type(1) a{
+	display: inline-block;
+	margin: 20px;
+	height: 35px;
+	line-height: 35px;
+	color: #FF0000;
+	border: 1px solid transparent;
+}
+#pay_success>div:nth-of-type(1) a:hover{
+	border-bottom-color: #FF6634;
+}
+#pay_success>div:nth-of-type(2){
+	width: 329px;
+	float: left;
+	height: 250px;
+	padding:45px 0 0  30px;
+} 
+#pay_success>div:nth-of-type(2) p{
+	height: 45px;
+	line-height: 45px;
+	color: #666;
+}
+
